@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <meta lang="pt-br">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Decodificador JavaScript</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <h1><img src="Vector.svg" class="logo" alt="logo Alura"></h1>
+                <div class="area-input">
+                    <textarea id="mensagem" placeholder="Digite seu texto aqui"></textarea>
+                    <p class="alerta"><span>&#9888;</span> Apenas letras minúsculas e sem acento.</p>
+                    <div class="btns">
+                        <button id="criptBtn" type="button">Criptografar</button>
+                        <button id="decripBtn" type="button">Descriptografar</button>
+                    </div>
+                </div>
+                <div id="area-output">
+                    <img class="personagem" src="High quality products.svg" alt="Personagem olhando diamante na lupa">
+                    <p class="nenhuma-mensagem">Nenhuma mensagem encontrada</p>
+                    <p class="digite">Digite um texto que você deseja criptografar ou descriptografar</p>
+                </div>
+            </div>
+        </main>
+    <!--Script JS-->
+    <script src="decodificador.js"></script>
+    </body>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/AmigoDaLua/" target="_blank">Matheus Pantunes</a></p>
+    </footer>
+</html>
+
